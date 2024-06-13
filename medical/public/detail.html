@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Medical Institution Detail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header data-bs-theme="dark">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <strong class="strong-text">우리동네 응급실</strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container py-5">
+        <button class="btn btn-secondary mb-3" onclick="history.back()">뒤로가기</button>
+        <h2 id="detail-name"></h2>
+        <p id="detail-type"></p>
+        <p id="detail-phone"></p>
+        <p id="detail-address"></p>
+        <img id="detail-photo" src="" alt="응급실 사진" class="img-fluid">
+        <a id="detail-map" href="#" class="btn btn-primary mt-2">지도 보기</a>
+        <p id="detail-website"></p>
+        <p id="detail-hours"></p>
+    </div>
+</main>
+
+<footer class="text-body-secondary py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Emergency Medical Institutions example © Bootstrap, but please download and customize it for yourself!</p>
+        <p class="mb-0">New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our getting started guide.</p>
+    </div>
+</footer>
+<script src="js/detail.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

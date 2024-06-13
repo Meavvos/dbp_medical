@@ -1,0 +1,108 @@
+/* 기본적인 페이지 스타일 */
+body {
+    font-family: 'Jua', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: navy; /* 헤더 배경 색상을 네이비로 변경 */
+}
+
+.navbar {
+    background-color: navy !important; /* 네이비 배경색 적용 */
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff; /* 텍스트 색상 */
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #ddd; /* 마우스 오버 시 텍스트 색상 */
+}
+
+/* 스타일을 추가해서 텍스트 크기를 조정할 수 있습니다 */
+.strong-text {
+    font-family: 'Jua', sans-serif; /* Jua 폰트 적용 */
+    font-weight: 400; /* 글꼴 두께 */
+    font-size: 50px; /* 원하는 글씨 크기 */
+    font-style: normal; /* 글꼴 스타일 */
+}
+
+/* 기타 스타일 */
+.container {
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+/* 추가적인 커스터마이징 */
+h1.fw-light {
+    font-family: 'Jua', sans-serif; /* Jua 폰트 적용 */
+    font-weight: 400; /* 글꼴 두께 */
+    font-size: 50px; /* 원하는 글씨 크기 */
+    font-style: normal; /* 글꼴 스타일 */
+    color: navy;
+}
+
+.text-body-secondary {
+    font-weight: 100;
+    font-size: 20px;
+    color: navy;
+}
+
+.district-text {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Jua', sans-serif; /* Jua 폰트 적용 */
+    font-weight: 400; /* 글꼴 두께 */
+    font-size: 35px; /* 원하는 글씨 크기 */
+    font-style: normal; /* 글꼴 스타일 */
+    color: #333;
+}
+
+.district-img {
+    width: 150px; /* 원하는 너비 값 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.list-group-item {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.institution {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.institution h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.institution p {
+    margin: 5px 0;
+}
+
+.detail-header {
+    background-color: navy; /* 헤더 배경 색상을 네이비로 변경 */
+}
